@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+  background: radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(0, 17, 255) 250%);
+  color: white;
+}
+
+#perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#perfil img {
+  border-radius: 50%;
+  width: 300px;
+}
+
+#perfil h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#texto {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  border-width: 10px;
+  margin: 4rem 5rem 4rem 5rem;
+  background-color: antiquewhite;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray;
+  padding: 1rem;
+}
+
+#frase {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  font-size: 16px;
+}
+
+#sound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sound audio {
+  margin-right: 10px;
+}
+
+#sound video {
+  margin-left: 10px;
+}
+
+#encontreme {
+  margin: 4rem 5rem 4rem 5rem;
+}
+
+#encontreme ul {
+  list-style: none;
+}
+
