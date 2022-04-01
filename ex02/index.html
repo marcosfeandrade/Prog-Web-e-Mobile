@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="conversor.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <title>Conversor</title>
 </head>
 <body>
-  <h1>Conversor de moedas</h1>
+  <h1>Conversor de moeda$</h1>
+  <div class="form">
     <div class="taxa">
         <label>Taxa de conversão</label>
         <input type="number" class="taxa-input" placeholder="0.00">
-        <button class="taxa-button" onclick="bloqueiaTaxa()">Selecionar taxa</button>
-        <button class="reset-taxa-button" onclick="resetaTaxa()">Resetar taxa</button>
+        <button class="taxa-button" onclick="bloqueiaTaxa()" type="submit">Selecionar taxa</button>
+        <button class="reset-taxa-button" onclick="resetaTaxa()" type="submit">Resetar taxa</button>
     </div>
 
     <div class="real">
         <label>Real</label>
-        <input type="number" placeholder="0.00" id="valor-real">
-        <button class="real-to-dolar-button">Converter para dolar</button>
+        <input type="number" placeholder="R$ 0.00" id="valor-real">
+        <button class="real-to-dolar-button" onclick="converterParaDolar()" type="submit">Converter para dolar</button>
     </div>
     <div class="dolar">
       <label>Dolar</label>
-      <input type="number" placeholder="0.00" id="valor-dolar">
-      <button class="dolar-to-real-button">Converter para dolar</button>
+      <input type="number" placeholder="U$ 0.00" id="valor-dolar">
+      <button class="dolar-to-real-button" onclick="converterParaReal()" type="submit">Converter para real</button>
     </div>
+  </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
