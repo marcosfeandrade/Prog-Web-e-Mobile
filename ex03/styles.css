@@ -1,0 +1,35 @@
+body{
+  background: gray;
+  text-align: center;
+}
+
+.nome-div{
+  margin: 1rem 0 1rem 1rem;
+  font-size: 2rem;
+}
+
+.contadores{
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+#valor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: lime;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
